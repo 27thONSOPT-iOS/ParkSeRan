@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A58018292535BF670053600D /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58018282535BF670053600D /* BlueViewController.swift */; };
+		A580182E2535C41F0053600D /* SkyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A580182D2535C41F0053600D /* SkyViewController.swift */; };
+		A58018332535C6C60053600D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58018322535C6C60053600D /* FirstViewController.swift */; };
+		A58018382535C6DF0053600D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58018372535C6DF0053600D /* SecondViewController.swift */; };
 		A59219AF2535726D00E188B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59219AE2535726D00E188B8 /* AppDelegate.swift */; };
 		A59219B12535726D00E188B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59219B02535726D00E188B8 /* SceneDelegate.swift */; };
 		A59219B32535726D00E188B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59219B22535726D00E188B8 /* ViewController.swift */; };
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A58018282535BF670053600D /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		A580182D2535C41F0053600D /* SkyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyViewController.swift; sourceTree = "<group>"; };
+		A58018322535C6C60053600D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		A58018372535C6DF0053600D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		A59219AB2535726D00E188B8 /* WEEK1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WEEK1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A59219AE2535726D00E188B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A59219B02535726D00E188B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +114,10 @@
 				A59219B72535726D00E188B8 /* Assets.xcassets */,
 				A59219B92535726D00E188B8 /* LaunchScreen.storyboard */,
 				A59219BC2535726D00E188B8 /* Info.plist */,
+				A58018282535BF670053600D /* BlueViewController.swift */,
+				A580182D2535C41F0053600D /* SkyViewController.swift */,
+				A58018322535C6C60053600D /* FirstViewController.swift */,
+				A58018372535C6DF0053600D /* SecondViewController.swift */,
 			);
 			path = WEEK1;
 			sourceTree = "<group>";
@@ -260,6 +272,10 @@
 			files = (
 				A59219B32535726D00E188B8 /* ViewController.swift in Sources */,
 				A59219AF2535726D00E188B8 /* AppDelegate.swift in Sources */,
+				A580182E2535C41F0053600D /* SkyViewController.swift in Sources */,
+				A58018332535C6C60053600D /* FirstViewController.swift in Sources */,
+				A58018382535C6DF0053600D /* SecondViewController.swift in Sources */,
+				A58018292535BF670053600D /* BlueViewController.swift in Sources */,
 				A59219B12535726D00E188B8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
