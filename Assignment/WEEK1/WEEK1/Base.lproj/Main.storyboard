@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Login-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WEEK1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="BYZ-38-t0r" customClass="LoginViewController" customModule="WEEK1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -76,6 +76,9 @@
                                                 <state key="normal" title="로그인">
                                                     <color key="titleColor" systemColor="systemYellowColor"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="touchUpLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f7F-08-aaG"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c1M-Th-Fft">
                                                 <rect key="frame" x="0.0" y="65" width="150" height="50"/>
@@ -88,6 +91,9 @@
                                                 <state key="normal" title="회원가입">
                                                     <color key="titleColor" systemColor="systemYellowColor"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="touchUpSignUpMove:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sx8-vd-0eR"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -101,16 +107,16 @@
                             <constraint firstItem="C9n-40-ew0" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="pY5-9q-xYb"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="ec8-vS-vLM"/>
+                    <navigationItem key="navigationItem" title="Login" id="ec8-vS-vLM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="711.59420289855075" y="-212.27678571428569"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign Up View Controller-->
         <scene sceneID="2Vm-Vp-4mg">
             <objects>
-                <viewController id="MNB-85-cRa" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignUpViewController" id="MNB-85-cRa" customClass="SignUpViewController" customModule="WEEK1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FLm-J7-n5d">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -191,6 +197,9 @@
                                         <state key="normal" title="회원가입">
                                             <color key="titleColor" systemColor="systemYellowColor"/>
                                         </state>
+                                        <connections>
+                                            <action selector="touchUpSignUp:" destination="MNB-85-cRa" eventType="touchUpInside" id="Lhi-rn-4gU"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -210,7 +219,7 @@
         <!--View Controller-->
         <scene sceneID="4lS-Qu-dOq">
             <objects>
-                <viewController id="sTs-dW-egs" sceneMemberID="viewController">
+                <viewController id="sTs-dW-egs" customClass="ViewController" customModule="WEEK1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="auw-Jk-Dhc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -264,6 +273,9 @@
                                                 <state key="normal" title="로그인 하러 가기">
                                                     <color key="titleColor" systemColor="systemGray2Color"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="touchUpLoginMove:" destination="sTs-dW-egs" eventType="touchUpInside" id="Vw4-8f-xMp"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -292,7 +304,7 @@
         <!--Navigation Controller-->
         <scene sceneID="fS6-CM-QCr">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ul0-oe-Qti" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="NavigationController" automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="ul0-oe-Qti" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="OvK-rz-8nh">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>

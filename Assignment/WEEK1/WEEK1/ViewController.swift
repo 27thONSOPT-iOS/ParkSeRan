@@ -8,6 +8,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    // MARK: IBO
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,5 +17,14 @@ class ViewController: UIViewController {
     }
 
 
+    // MARK: IBA
+    @IBAction func touchUpLoginMove(_ sender: UIButton) {
+        guard let dvc = self.storyboard?.instantiateViewController(identifier: "NavigationController") else {
+            return
+        }
+        dvc.modalPresentationStyle = .fullScreen
+        self.present(dvc, animated: true, completion: nil)
+    }
+    
 }
 
