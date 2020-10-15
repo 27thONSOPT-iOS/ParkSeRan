@@ -108,6 +108,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Login" id="ec8-vS-vLM"/>
+                    <connections>
+                        <outlet property="nameTextField" destination="dbX-oF-q9F" id="lqE-c9-UOQ"/>
+                        <outlet property="partTextField" destination="Vdq-In-dfk" id="crN-1C-1L0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -216,10 +220,10 @@
             </objects>
             <point key="canvasLocation" x="1475" y="-212"/>
         </scene>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="4lS-Qu-dOq">
             <objects>
-                <viewController id="sTs-dW-egs" customClass="ViewController" customModule="WEEK1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainViewController" id="sTs-dW-egs" customClass="MainViewController" customModule="WEEK1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="auw-Jk-Dhc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -238,16 +242,16 @@
                                                 <rect key="frame" x="5" y="0.0" width="147.5" height="69.5"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="53" translatesAutoresizingMaskIntoConstraints="NO" id="xHq-bW-rCg">
-                                                        <rect key="frame" x="19" y="0.0" width="109.5" height="20.5"/>
+                                                        <rect key="frame" x="18.5" y="0.0" width="110" height="20.5"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="파트" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zz7-js-WqQ">
-                                                                <rect key="frame" x="0.0" y="0.0" width="29.5" height="20.5"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="30" height="20.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iOS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ndK-Cr-6QT">
-                                                                <rect key="frame" x="82.5" y="0.0" width="27" height="20.5"/>
+                                                                <rect key="frame" x="83" y="0.0" width="27" height="20.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
@@ -291,11 +295,16 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="tDm-R6-iDz" firstAttribute="leading" secondItem="dN8-QU-KXQ" secondAttribute="leading" constant="87" id="4tx-wZ-yNu"/>
+                            <constraint firstItem="dN8-QU-KXQ" firstAttribute="trailing" secondItem="xHq-bW-rCg" secondAttribute="trailing" constant="152" id="APf-oL-RUV"/>
                             <constraint firstItem="tDm-R6-iDz" firstAttribute="top" secondItem="dN8-QU-KXQ" secondAttribute="top" constant="177" id="FK0-oF-Hdr"/>
                             <constraint firstItem="tDm-R6-iDz" firstAttribute="centerX" secondItem="auw-Jk-Dhc" secondAttribute="centerX" id="I6Q-FP-5ba"/>
                             <constraint firstItem="tDm-R6-iDz" firstAttribute="centerY" secondItem="auw-Jk-Dhc" secondAttribute="centerY" id="LWV-bA-1TR"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="hiLabel" destination="27V-37-CYa" id="Wkp-Ls-60l"/>
+                        <outlet property="partLabel" destination="ndK-Cr-6QT" id="7Id-3M-DDv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n8C-aw-9IJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
