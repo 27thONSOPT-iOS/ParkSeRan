@@ -111,15 +111,15 @@
                                                                             <rect key="frame" x="0.0" y="0.0" width="175" height="246"/>
                                                                             <autoresizingMask key="autoresizingMask"/>
                                                                             <subviews>
-                                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="adr-ag-igB">
+                                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="juhyeok" translatesAutoresizingMaskIntoConstraints="NO" id="adr-ag-igB">
                                                                                     <rect key="frame" x="0.0" y="0.0" width="175" height="175"/>
                                                                                     <constraints>
                                                                                         <constraint firstAttribute="width" secondItem="adr-ag-igB" secondAttribute="height" multiplier="1:1" id="6lY-Hs-s86"/>
                                                                                     </constraints>
                                                                                 </imageView>
-                                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="characterWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DJA-2v-Wbo">
-                                                                                    <rect key="frame" x="67" y="195" width="41.5" height="20.5"/>
-                                                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#밍맹 #안팟장 #이래뵈도_귀여운거좋아함 #지박령 #허당" textAlignment="natural" lineBreakMode="characterWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DJA-2v-Wbo">
+                                                                                    <rect key="frame" x="18" y="191" width="135" height="26.5"/>
+                                                                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="11"/>
                                                                                     <nil key="textColor"/>
                                                                                     <nil key="highlightedColor"/>
                                                                                 </label>
@@ -139,15 +139,16 @@
                                                                                 </label>
                                                                             </subviews>
                                                                             <constraints>
+                                                                                <constraint firstItem="DJA-2v-Wbo" firstAttribute="leading" secondItem="QYk-Yn-0wO" secondAttribute="leading" constant="18" id="0B0-yY-6Tb"/>
+                                                                                <constraint firstItem="DJA-2v-Wbo" firstAttribute="top" secondItem="adr-ag-igB" secondAttribute="bottom" constant="16" id="1r0-Eg-eLy"/>
                                                                                 <constraint firstItem="adr-ag-igB" firstAttribute="leading" secondItem="QYk-Yn-0wO" secondAttribute="leading" id="2I8-Ox-CES"/>
-                                                                                <constraint firstItem="DJA-2v-Wbo" firstAttribute="top" secondItem="adr-ag-igB" secondAttribute="bottom" constant="20" id="3dw-Qc-vwz"/>
                                                                                 <constraint firstItem="T72-Zv-eXC" firstAttribute="top" secondItem="QYk-Yn-0wO" secondAttribute="top" constant="111" id="74s-II-rFS"/>
                                                                                 <constraint firstAttribute="trailing" secondItem="adr-ag-igB" secondAttribute="trailing" id="B2g-Bc-PUK"/>
                                                                                 <constraint firstItem="Q5n-o6-hn0" firstAttribute="leading" secondItem="QYk-Yn-0wO" secondAttribute="leading" constant="15" id="Cvp-hM-HQw"/>
                                                                                 <constraint firstItem="adr-ag-igB" firstAttribute="top" secondItem="QYk-Yn-0wO" secondAttribute="top" id="QLq-Du-Z0w"/>
                                                                                 <constraint firstItem="T72-Zv-eXC" firstAttribute="leading" secondItem="QYk-Yn-0wO" secondAttribute="leading" constant="15" id="XNB-Nn-gkb"/>
-                                                                                <constraint firstItem="DJA-2v-Wbo" firstAttribute="centerX" secondItem="QYk-Yn-0wO" secondAttribute="centerX" id="jFC-L6-sew"/>
                                                                                 <constraint firstItem="Q5n-o6-hn0" firstAttribute="top" secondItem="T72-Zv-eXC" secondAttribute="bottom" id="nia-2Y-3et"/>
+                                                                                <constraint firstAttribute="trailing" secondItem="DJA-2v-Wbo" secondAttribute="trailing" constant="22" id="vci-bB-BF7"/>
                                                                             </constraints>
                                                                         </collectionViewCellContentView>
                                                                         <size key="customSize" width="175" height="246"/>
@@ -217,6 +218,7 @@
     </scenes>
     <resources>
         <image name="banner" width="375" height="420"/>
+        <image name="juhyeok" width="150" height="150"/>
         <image name="profileBtn" width="132" height="32"/>
         <image name="soptLogo" width="62" height="23"/>
         <systemColor name="systemBackgroundColor">

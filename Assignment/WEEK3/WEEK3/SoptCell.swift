@@ -25,5 +25,5 @@ class SoptCell: UICollectionViewCell {
     
     
     func setHashTagLabel(Name: String) {
-        nameLabel.text = Name }
+        hashtagLabel.text = Name }
 }
