@@ -19,6 +19,10 @@
 		A58BDAEB254D465A0012F53A /* TableViewTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A58BDAEA254D465A0012F53A /* TableViewTest.storyboard */; };
 		A58BDAEE254D46730012F53A /* TableViewTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58BDAED254D46730012F53A /* TableViewTestVC.swift */; };
 		A58BDAF2254D4B4B0012F53A /* MusicRankCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58BDAF1254D4B4B0012F53A /* MusicRankCell.swift */; };
+		A58BDAF5254D4DDA0012F53A /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58BDAF4254D4DDA0012F53A /* Music.swift */; };
+		A58BDAFA254D52090012F53A /* MusicInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A58BDAF9254D52090012F53A /* MusicInfo.storyboard */; };
+		A58BDAFD254D52310012F53A /* MusicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58BDAFC254D52310012F53A /* MusicInfo.swift */; };
+		A58BDB00254D57AC0012F53A /* CollectionViewTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A58BDAFF254D57AC0012F53A /* CollectionViewTest.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,10 @@
 		A58BDAEA254D465A0012F53A /* TableViewTest.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TableViewTest.storyboard; sourceTree = "<group>"; };
 		A58BDAED254D46730012F53A /* TableViewTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewTestVC.swift; sourceTree = "<group>"; };
 		A58BDAF1254D4B4B0012F53A /* MusicRankCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicRankCell.swift; sourceTree = "<group>"; };
+		A58BDAF4254D4DDA0012F53A /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		A58BDAF9254D52090012F53A /* MusicInfo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MusicInfo.storyboard; sourceTree = "<group>"; };
+		A58BDAFC254D52310012F53A /* MusicInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicInfo.swift; sourceTree = "<group>"; };
+		A58BDAFF254D57AC0012F53A /* CollectionViewTest.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CollectionViewTest.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +83,12 @@
 				A58BDAE7254D3A3F0012F53A /* Part.swift */,
 				A58BDAE4254D35210012F53A /* PickerViewTestVC.swift */,
 				A58BDAEA254D465A0012F53A /* TableViewTest.storyboard */,
+				A58BDAFF254D57AC0012F53A /* CollectionViewTest.storyboard */,
+				A58BDAF4254D4DDA0012F53A /* Music.swift */,
 				A58BDAF1254D4B4B0012F53A /* MusicRankCell.swift */,
 				A58BDAED254D46730012F53A /* TableViewTestVC.swift */,
+				A58BDAF9254D52090012F53A /* MusicInfo.storyboard */,
+				A58BDAFC254D52310012F53A /* MusicInfo.swift */,
 				A58BDAD1254D34600012F53A /* Main.storyboard */,
 				A58BDAD4254D34610012F53A /* Assets.xcassets */,
 				A58BDAD6254D34610012F53A /* LaunchScreen.storyboard */,
@@ -142,7 +154,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A58BDAFA254D52090012F53A /* MusicInfo.storyboard in Resources */,
 				A58BDAEB254D465A0012F53A /* TableViewTest.storyboard in Resources */,
+				A58BDB00254D57AC0012F53A /* CollectionViewTest.storyboard in Resources */,
 				A58BDAD8254D34610012F53A /* LaunchScreen.storyboard in Resources */,
 				A58BDAE1254D34B60012F53A /* PickerViewTest.storyboard in Resources */,
 				A58BDAD5254D34610012F53A /* Assets.xcassets in Resources */,
@@ -158,12 +172,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A58BDAF2254D4B4B0012F53A /* MusicRankCell.swift in Sources */,
+				A58BDAFD254D52310012F53A /* MusicInfo.swift in Sources */,
 				A58BDAD0254D34600012F53A /* ViewController.swift in Sources */,
 				A58BDACC254D34600012F53A /* AppDelegate.swift in Sources */,
 				A58BDAEE254D46730012F53A /* TableViewTestVC.swift in Sources */,
 				A58BDACE254D34600012F53A /* SceneDelegate.swift in Sources */,
 				A58BDAE8254D3A3F0012F53A /* Part.swift in Sources */,
 				A58BDAE5254D35210012F53A /* PickerViewTestVC.swift in Sources */,
+				A58BDAF5254D4DDA0012F53A /* Music.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
