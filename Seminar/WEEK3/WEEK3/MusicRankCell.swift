@@ -10,7 +10,13 @@ import UIKit
 class MusicRankCell: UITableViewCell {
     // MARK: Properties
     static let identifier = "MusicRankCell"
-
+    
+    // MARK: IBO
+    @IBOutlet weak var albumImageView: UIImageView!
+    @IBOutlet weak var rankLabel: UILabel!
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var singerLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -22,4 +28,10 @@ class MusicRankCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
+    func setCell(rank: Int, music: Music) {
+        albumImageView.image = music.makeAlbumImage()
+        rankLabel.text = "\(rank + 1)"
+        titleLabel.text = music.title
+        singerLabel.text = music.singer
+    }
 }
