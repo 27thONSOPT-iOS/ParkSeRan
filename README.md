@@ -2,9 +2,6 @@
 
 ## 27th SOPT iOS 소개
 
-크앙 ! 안드 26기 박세란쨩이 아요 27기로 돌아왔다! 그녀는 모바일 프로그래밍을 정복 하려는 야망을 가진 듯 한데,  아무튼 그녀의 역량을 기대하라 !
-아요짱!! 안드짱!!
-
 ## 27th SOPT iOS conventions
 
 ### commit convention
